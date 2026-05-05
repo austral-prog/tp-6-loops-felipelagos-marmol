@@ -1,4 +1,4 @@
-# Replace the "ANSWER HERE" for your answer
+ Replace the "ANSWER HERE" for your answer
 
 def put(value, lst):
     """
@@ -16,7 +16,7 @@ def put(value, lst):
         if lst[i] == "":
             lst[i] = value
             return i
-
+    return -1
 
 def remove(value, lst):
     """
@@ -35,4 +35,4 @@ def remove(value, lst):
             lst[i] = ""
             count += 1
     return count
-        
+
